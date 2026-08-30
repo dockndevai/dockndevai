@@ -16,6 +16,7 @@ A family of [Model Context Protocol](https://modelcontextprotocol.io) servers th
 | [**mcp-azure**](https://github.com/dockndevai/mcp-azure) | Azure Resource Manager inventory, tags, VM power, lifecycle | `npx -y @dockndevai/mcp-azure` | ![](https://img.shields.io/github/stars/dockndevai/mcp-azure?style=social) |
 | [**mcp-azure-devops**](https://github.com/dockndevai/mcp-azure-devops) | Boards, repos, pipelines, projects | `npx -y @dockndevai/mcp-azure-devops` | ![](https://img.shields.io/github/stars/dockndevai/mcp-azure-devops?style=social) |
 | [**mcp-keycloak**](https://github.com/dockndevai/mcp-keycloak) | Realms, users, clients, roles, groups | `npx -y @dockndevai/mcp-keycloak` | ![](https://img.shields.io/github/stars/dockndevai/mcp-keycloak?style=social) |
+| [**mcp-percona-pg**](https://github.com/dockndevai/mcp-percona-pg) | Percona PostgreSQL + PgBouncer: pooling, tuning, backups/PITR, DR, upgrades | `npx -y @dockndevai/mcp-percona-pg` | ![](https://img.shields.io/github/stars/dockndevai/mcp-percona-pg?style=social) |
 
 Each works with Claude, Cursor, OpenAI Codex, VS Code, and Windsurf — per-client setup in every repo's `docs/CLIENTS.md`.
 
