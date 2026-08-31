@@ -21,4 +21,29 @@ A family of [Model Context Protocol](https://modelcontextprotocol.io) servers th
 
 Each works with Claude, Cursor, OpenAI Codex, VS Code, and Windsurf — per-client setup in every repo's `docs/CLIENTS.md`.
 
+## 🧠 The platforms behind them
+
+The agent tools sit on top of real systems I also build and run.
+
+| Project | What it is |
+|---|---|
+| [**ossian**](https://github.com/dockndevai/ossian) | Open-book RAG over your own documents — Spring Boot + Spring AI, a React console, Keycloak OAuth2, Postgres/pgvector and Redis. Answers with citations, plus a maintenance side for ingestion, re-indexing and coverage gaps. `ossian-mcp` is its agent adapter. |
+| [**spring-llm-gateway**](https://github.com/dockndevai/spring-llm-gateway) | An LLM gateway on Spring Cloud Gateway (WebFlux): virtual keys, token quotas, usage metering and failover for self-hosted OpenAI-compatible backends (vLLM, Ollama). |
+
+## 🎙️ Otto — a voice for the Claude you already run
+
+A realtime, voice-driven assistant with Claude as the brain: local Whisper STT, streaming TTS with barge-in, subagents, and a web dashboard.
+
+- [**orrin-site**](https://github.com/dockndevai/orrin-site) — the site
+- [**homebrew-otto**](https://github.com/dockndevai/homebrew-otto) — a `brew` tap to install it
+
+## 🧪 Hands-on labs
+
+Runnable reference environments — every claim measured, every failure documented. Each pairs with an MCP server above.
+
+| Lab | What it covers |
+|---|---|
+| [**percona-pg-lab**](https://github.com/dockndevai/percona-pg-lab) | PostgreSQL + PgBouncer on Kubernetes with the Percona Operator — HA, DR, connection pooling, backups, observability. Pairs with `mcp-percona-pg`. |
+| [**kafka-lifecycle-lab**](https://github.com/dockndevai/kafka-lifecycle-lab) | Operating Apache Kafka on Kubernetes with Strimzi — provision, upgrade, DR with MirrorMaker 2, and read-only agent triage. Pairs with `mcp-kafka`. |
+
 ⭐ **If any of these save you time, a star helps other engineers find them.**
