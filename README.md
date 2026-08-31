@@ -1,6 +1,6 @@
 # Hi, I'm Ankit 👋
 
-I build **safe-by-default MCP servers** — so AI agents can operate real infrastructure without being handed the keys.
+I build **safe-by-default MCP servers** — so AI agents can work with real systems, from infrastructure to your own documents, without being handed the keys.
 
 ## 🔐 The MCP server suite
 
