@@ -4,7 +4,7 @@ I build **safe-by-default MCP servers** — so AI agents can operate real infras
 
 ## 🔐 The MCP server suite
 
-A family of [Model Context Protocol](https://modelcontextprotocol.io) servers that share one governance model: **read-only by default**, layered access modes, resource allowlists, protected resources, delete gating, **typed confirmation** for high-impact ops, **secret redaction**, dry-run, and JSON audit logging. All MIT-licensed and on npm as `@dockndevai/mcp-*`.
+A family of [Model Context Protocol](https://modelcontextprotocol.io) servers that share one governance model: **read-only by default**, layered access modes, resource allowlists, protected resources, delete gating, **typed confirmation** for high-impact ops, **secret redaction**, dry-run, and JSON audit logging. Mostly MIT-licensed and on npm as `@dockndevai/mcp-*` (plus the Apache-2.0 `ossian-mcp`).
 
 | Server | What it does | Install | Stars |
 |---|---|---|---|
@@ -17,6 +17,7 @@ A family of [Model Context Protocol](https://modelcontextprotocol.io) servers th
 | [**mcp-azure-devops**](https://github.com/dockndevai/mcp-azure-devops) | Boards, repos, pipelines, projects | `npx -y @dockndevai/mcp-azure-devops` | ![](https://img.shields.io/github/stars/dockndevai/mcp-azure-devops?style=social) |
 | [**mcp-keycloak**](https://github.com/dockndevai/mcp-keycloak) | Realms, users, clients, roles, groups | `npx -y @dockndevai/mcp-keycloak` | ![](https://img.shields.io/github/stars/dockndevai/mcp-keycloak?style=social) |
 | [**mcp-percona-pg**](https://github.com/dockndevai/mcp-percona-pg) | Percona PostgreSQL + PgBouncer: pooling, tuning, backups/PITR, DR, upgrades | `npx -y @dockndevai/mcp-percona-pg` | ![](https://img.shields.io/github/stars/dockndevai/mcp-percona-pg?style=social) |
+| [**ossian-mcp**](https://github.com/dockndevai/ossian-mcp) | Ask your own documents with citations + durable agent memory (RAG) | `npx -y ossian-mcp` | ![](https://img.shields.io/github/stars/dockndevai/ossian-mcp?style=social) |
 
 Each works with Claude, Cursor, OpenAI Codex, VS Code, and Windsurf — per-client setup in every repo's `docs/CLIENTS.md`.
 
