@@ -4,6 +4,8 @@ I build **safe-by-default MCP servers** — so AI agents can work with real syst
 
 ## 🔐 The MCP server suite
 
+🌐 **[dockndevai.github.io](https://dockndevai.github.io/)** — the whole suite on one page, with the security model and copy-paste installs.
+
 A family of [Model Context Protocol](https://modelcontextprotocol.io) servers that share one governance model: **read-only by default**, layered access modes, resource allowlists, protected resources, delete gating, **typed confirmation** for high-impact ops, **secret redaction**, dry-run, and JSON audit logging. Mostly MIT-licensed and on npm as `@dockndevai/mcp-*` (plus the Apache-2.0 `ossian-mcp`).
 
 | Server | What it does | Install | Stars |
