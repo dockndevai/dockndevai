@@ -22,6 +22,8 @@ A family of [Model Context Protocol](https://modelcontextprotocol.io) servers th
 | [**mcp-grafana**](https://github.com/dockndevai/mcp-grafana) | Dashboards, datasource queries (PromQL/LogQL/SQL), alerts & annotations | `npx -y @dockndevai/mcp-grafana` | ![](https://img.shields.io/github/stars/dockndevai/mcp-grafana?style=social) |
 | [**ossian-mcp**](https://github.com/dockndevai/ossian-mcp) | Ask your own documents with citations + durable agent memory (RAG) | `npx -y ossian-mcp` | ![](https://img.shields.io/github/stars/dockndevai/ossian-mcp?style=social) |
 | [**mcp-macos**](https://github.com/dockndevai/mcp-macos) | Observe & operate a Mac — files, processes, apps, screenshots, shell, AppleScript, GUI (safe by default) | `npx -y @dockndevai/mcp-macos` | ![](https://img.shields.io/github/stars/dockndevai/mcp-macos?style=social) |
+| [**mcp-outlook**](https://github.com/dockndevai/mcp-outlook) | Outlook mail (Microsoft Graph) — read, search, draft, send, reply, organize; browser sign-in | `npx -y @dockndevai/mcp-outlook` | ![](https://img.shields.io/github/stars/dockndevai/mcp-outlook?style=social) |
+| [**mcp-teams**](https://github.com/dockndevai/mcp-teams) | Microsoft Teams (Microsoft Graph) — read teams, channels, chats & messages, post/reply/send; browser sign-in | `npx -y @dockndevai/mcp-teams` | ![](https://img.shields.io/github/stars/dockndevai/mcp-teams?style=social) |
 
 Each works with Claude, Cursor, OpenAI Codex, VS Code, and Windsurf — per-client setup in every repo's `docs/CLIENTS.md`.
 
