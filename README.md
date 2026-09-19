@@ -11,6 +11,7 @@ A family of [Model Context Protocol](https://modelcontextprotocol.io) servers th
 | Server | What it does | Install | Stars |
 |---|---|---|---|
 | [**mcp-kubernetes**](https://github.com/dockndevai/mcp-kubernetes) | Pods, logs, deployments, scale/restart, apply, exec | `npx -y @dockndevai/mcp-kubernetes` | ![](https://img.shields.io/github/stars/dockndevai/mcp-kubernetes?style=social) |
+| [**mcp-openshift**](https://github.com/dockndevai/mcp-openshift) | OpenShift / Kubernetes — projects, pods, logs, routes, deployments, scale/restart, apply; token or username/password | `npx -y @dockndevai/mcp-openshift` | ![](https://img.shields.io/github/stars/dockndevai/mcp-openshift?style=social) |
 | [**mcp-kafka**](https://github.com/dockndevai/mcp-kafka) | Topics, consumer groups + lag, create/alter/reset | `npx -y @dockndevai/mcp-kafka` | ![](https://img.shields.io/github/stars/dockndevai/mcp-kafka?style=social) |
 | [**mcp-clickhouse**](https://github.com/dockndevai/mcp-clickhouse) | Schema, queries, SQL-classified read/write/destructive gating | `npx -y @dockndevai/mcp-clickhouse` | ![](https://img.shields.io/github/stars/dockndevai/mcp-clickhouse?style=social) |
 | [**mcp-debezium**](https://github.com/dockndevai/mcp-debezium) | CDC connector status, config, lifecycle | `npx -y @dockndevai/mcp-debezium` | ![](https://img.shields.io/github/stars/dockndevai/mcp-debezium?style=social) |
