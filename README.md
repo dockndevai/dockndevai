@@ -26,6 +26,7 @@ A family of [Model Context Protocol](https://modelcontextprotocol.io) servers th
 | [**mcp-outlook**](https://github.com/dockndevai/mcp-outlook) | Outlook mail + OneDrive files (Microsoft Graph) — read, search, draft, send, organize; browser sign-in | `npx -y @dockndevai/mcp-outlook` | ![](https://img.shields.io/github/stars/dockndevai/mcp-outlook?style=social) |
 | [**mcp-teams**](https://github.com/dockndevai/mcp-teams) | Microsoft Teams (Microsoft Graph) — read teams, channels, chats & messages, post/reply/send; browser sign-in | `npx -y @dockndevai/mcp-teams` | ![](https://img.shields.io/github/stars/dockndevai/mcp-teams?style=social) |
 | [**mcp-mac-control**](https://github.com/dockndevai/mcp-mac-control) | Full Mac control — drive it like a human: shell, AppleScript, files, and GUI (click, drag, scroll, type); opt-in safe mode | `npx -y @dockndevai/mcp-mac-control` | ![](https://img.shields.io/github/stars/dockndevai/mcp-mac-control?style=social) |
+| [**mcp-cdp**](https://github.com/dockndevai/mcp-cdp) | Drive an Electron/Chrome app over the DevTools Protocol — DOM, console, network, click/type/navigate, gated JS eval. Cross-OS alternative to computer-use for testing apps | `npx -y @dockndevai/mcp-cdp` | ![](https://img.shields.io/github/stars/dockndevai/mcp-cdp?style=social) |
 
 Each works with Claude, Cursor, OpenAI Codex, VS Code, and Windsurf — per-client setup in every repo's `docs/CLIENTS.md`.
 
