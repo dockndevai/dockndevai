@@ -27,8 +27,11 @@ A family of [Model Context Protocol](https://modelcontextprotocol.io) servers th
 | [**mcp-teams**](https://github.com/dockndevai/mcp-teams) | Microsoft Teams (Microsoft Graph) — read teams, channels, chats & messages, post/reply/send; browser sign-in | `npx -y @dockndevai/mcp-teams` | ![](https://img.shields.io/github/stars/dockndevai/mcp-teams?style=social) |
 | [**mcp-mac-control**](https://github.com/dockndevai/mcp-mac-control) | Full Mac control — drive it like a human: shell, AppleScript, files, and GUI (click, drag, scroll, type); opt-in safe mode | `npx -y @dockndevai/mcp-mac-control` | ![](https://img.shields.io/github/stars/dockndevai/mcp-mac-control?style=social) |
 | [**mcp-cdp**](https://github.com/dockndevai/mcp-cdp) | Drive an Electron/Chrome app over the DevTools Protocol — DOM, console, network, click/type/navigate, gated JS eval. Cross-OS alternative to computer-use for testing apps | `npx -y @dockndevai/mcp-cdp` | ![](https://img.shields.io/github/stars/dockndevai/mcp-cdp?style=social) |
+| [**mcp-laya**](https://github.com/dockndevai/mcp-laya) | Fast, local, typed decisions for agents (classify/score/yes-no) in 100+ languages — no hallucination. A "thinking" tool that offloads System-1 judgment calls | `pipx install mcp-laya` | ![](https://img.shields.io/github/stars/dockndevai/mcp-laya?style=social) |
 
 Each works with Claude, Cursor, OpenAI Codex, VS Code, and Windsurf — per-client setup in every repo's `docs/CLIENTS.md`.
+
+> 🛡️ **[laya-guard](https://github.com/dockndevai/laya-guard)** — an optional, fully-local AI risk guard for the servers above. In a permissive mode, high-risk commands (shell, `evaluate`, apply/delete/exec) are classified allow/confirm/block by a local decision model *before* they run — defense in depth that only ever tightens, never grants. Wired into `mcp-mac-control`, `mcp-cdp`, `mcp-openshift` and `mcp-kubernetes`.
 
 ## 🧠 The platforms behind them
 
