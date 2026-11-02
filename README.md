@@ -33,6 +33,8 @@ Each works with Claude, Cursor, OpenAI Codex, VS Code, and Windsurf — per-clie
 
 > 🛡️ **[laya-guard](https://github.com/dockndevai/laya-guard)** — an optional, fully-local AI risk guard for the servers above. In a permissive mode, high-risk commands (shell, `evaluate`, apply/delete/exec) are classified allow/confirm/block by a local decision model *before* they run — defense in depth that only ever tightens, never grants. Wired into `mcp-mac-control`, `mcp-cdp`, `mcp-openshift` and `mcp-kubernetes`.
 
+> 🧩 **[mcp-core](https://github.com/dockndevai/mcp-core)** — the shared governance library every server above is built on: access modes, the guard, resource allowlists, elicitation confirm, symlink-safe path handling, secret redaction and audit — one audited implementation instead of eighteen that drift. On npm as `@dockndevai/mcp-core`.
+
 ## 🧠 The platforms behind them
 
 The agent tools sit on top of real systems I also build and run.
